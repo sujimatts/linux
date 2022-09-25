@@ -25,7 +25,7 @@ used to specify increments. For example, “0/15” in the seconds field means �
 
 ### differences between * and ?
 To explain difference between ? and * in the expressions, first of all take a look at this table:
-
+```
 Field Name      Mandatory   Allowed Values      Allowed Special Characters
 Seconds         YES         0-59                , - * /
 Minutes         YES         0-59                , - * /
@@ -34,4 +34,6 @@ Day of month    YES         1-31                , - * ? / L W   //allowed '?'
 Month           YES         1-12 or JAN-DEC     , - * /
 Day of week     YES         1-7 or SUN-SAT      , - * ? / L #   //allowed '?'
 Year            NO          empty, 1970-2099    , - * /
+```
+
 As you can see ? is only allowed in Day of month and Day of week is mandatory in one of both fields and will tell Quartz this value has not been defined, thus, use the other field (if you put ? into Day of month, the value used will be Day of week).
