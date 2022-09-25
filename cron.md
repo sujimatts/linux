@@ -42,5 +42,5 @@ As you can see ? is only allowed in Day of month and Day of week is mandatory in
 
 ```
 https://crontab.guru/
-http://www.cronmaker.com/;jsessionid=node03tqfcdbstkp230zamgb9upru414803.node0?0
+http://www.cronmaker.com/
 ```
