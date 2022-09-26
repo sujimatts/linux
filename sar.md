@@ -160,3 +160,5 @@ pidstat	It reports statistics based on the process id (PID)
 nfsiostat	It displays NFS I/O statistics.
 cifsiostat	It generates CIFS statistics.
 ```
+
+READ: https://www.thegeekdiary.com/sar-command-examples-in-linux/
